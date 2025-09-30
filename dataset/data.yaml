@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['1']
+
+roboflow:
+  workspace: asset-qhrdk
+  project: wagon-numbers-awucy
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/asset-qhrdk/wagon-numbers-awucy/dataset/1
